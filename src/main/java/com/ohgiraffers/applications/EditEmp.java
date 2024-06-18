@@ -17,4 +17,11 @@ public class EditEmp {
 
         Properties prop = new Properties();
 
+        if(result > 0) {
+            System.out.println("직원 수정 성공!!!");
+        }
+        else {
+            System.out.println("직원 수정 실패!!!");
+        }
+
     }

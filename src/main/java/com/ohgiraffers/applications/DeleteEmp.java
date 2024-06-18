@@ -17,4 +17,11 @@ public class DeleteEmp {
 
         Properties prop = new Properties();
 
+        if(result > 0) {
+            System.out.println("직원 삭제 성공!!!");
+        }
+        else {
+            System.out.println("직원 삭제 실패!!!");
+        }
+
     }

@@ -86,5 +86,12 @@ public class AddEmp {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+
+        if(result > 0) {
+            System.out.println("직원 저장 성공!!!");
+        }
+        else {
+            System.out.println("직원 저장 실패!!!");
+        }
     }
 }
