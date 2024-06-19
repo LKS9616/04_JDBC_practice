@@ -14,7 +14,7 @@ public class JDBCTemplate {
 
 
         try {
-            prop.load(new FileReader("src/main/java/com/ohgiraffers/config/jdbc-config.properties"));
+            prop.load(new FileReader("src/main/java/com/ohgiraffers/config/connection-info.properties"));
 
             String driver = prop.getProperty("driver");
             String url = prop.getProperty("url");
